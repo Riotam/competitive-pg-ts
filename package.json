@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Riotam/competitive-pg-ts/issues"
   },
-  "homepage": "https://github.com/Riotam/competitive-pg-ts#readme"
+  "homepage": "https://github.com/Riotam/competitive-pg-ts#readme",
+  "devDependencies": {
+    "typescript": "^3.9.5"
+  }
 }
