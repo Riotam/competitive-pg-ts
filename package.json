@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Riotam/competitive-pg-ts#readme",
   "devDependencies": {
+    "ts-node": "^8.10.2",
     "typescript": "^3.9.5"
   }
 }
