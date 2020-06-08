@@ -11,3 +11,8 @@ function Main(input: string) {
 function getStringsByString(input: string) :string[] {
     return input.split(' ', -1);
 }
+
+// getNumbersByStrings は文字列の配列を、数値の配列に変換する
+function getNumbersByStrings(input: string[]) :number[] {
+    return input.map(str => Number(str));
+}
