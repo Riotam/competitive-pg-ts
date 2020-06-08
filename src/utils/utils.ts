@@ -16,3 +16,8 @@ function getStringsByString(input: string) :string[] {
 function getNumbersByStrings(input: string[]) :number[] {
     return input.map(str => Number(str));
 }
+
+// countString は文字列の中で対象の文字列が存在する数を取得する regexの例->'/1/g'
+function countString(input :string, regex :string) :number {
+    return (input.match(regex) || []).length;
+}
